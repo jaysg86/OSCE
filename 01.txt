@@ -1,0 +1,3 @@
+<html>
+<body onload='alert("XSS")'></body>
+</html>

